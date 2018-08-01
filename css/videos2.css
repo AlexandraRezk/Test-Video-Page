@@ -1,0 +1,127 @@
+body{
+    background-image: url(../images/backgrounds/CellphoneTheater.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+#mobilePlaylist{
+    margin: 10vw auto;
+    width: 90vw;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.thumb{
+    width: 40vw;
+    float: left;
+}
+
+.vidDescription{
+    width: 50vw;
+    height: 22.5vw;
+    float: left; 
+    background-color: black;
+    opacity: .8;
+}
+
+.thumb,.vidDescription{
+    margin-bottom: 4vw;
+}
+.videoGallery{
+    display: none;
+}
+
+@media(min-width:800px){
+    body{
+        background-image: url(../images/backgrounds/iPadTheater.jpg);
+        background-size: 100vw 100vh;
+        margin: 0 auto;
+        
+    }
+    
+    #mobilePlaylist{
+    display: none;
+}
+    
+    .videoGallery{
+        display: block;
+    }
+   #videoPlayer {
+        width: 95vw;
+       height: 45vh;
+        margin: 10vh 2.5vw;
+    }
+ 
+    #playlist{
+        background: rgba(0, 0, 0, 0.5);
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin-top: 8vh;
+    }
+    
+   .thumb{
+    width: 30vw;
+    margin-left: 1vw;
+    float: left;
+}
+}
+
+@media(min-width:900px){
+   #videoPlayer {
+        width: 85vw;
+       height: 50vh;
+        margin: 10vh 7.5vw;
+    }
+    
+   .thumb{
+    width: 25vw;
+}
+}
+
+@media(min-width:1200px){
+     body{
+        background-image: url(../images/backgrounds/videobackground.jpg);
+    }
+    
+    #videoPlayer {
+        width: 55vw;
+        margin: 5vh 20vw;
+    }
+    
+    #playlist{
+       border: 2px solid black;
+        width: 90vw;
+        margin: 0 auto;
+    }
+    
+    .thumb{
+        margin: 2vh;
+        
+    }
+}
+
+@media(min-width:1450px){
+     .thumb{
+    width: 20vw;
+}
+}
+
+@media(min-width:1600px){
+     body{
+        background-image: url(../images/backgrounds/videobackground.jpg);
+    }
+    
+    #videoPlayer {
+        width: 45vw;
+        margin: 5vh 25vw;
+    }
+}
+
+@media(min-width:1750px){
+    .thumb{
+    width: 15vw;
+}
+}
